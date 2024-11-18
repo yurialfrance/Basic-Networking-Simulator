@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #0078d7;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffd700; /* Gold on hover */
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.welcome-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.welcome-section ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}

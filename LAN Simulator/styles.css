@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+}
+
+.tab.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.connector {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.pins {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.pin {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.palette {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    margin: 5px;
+    cursor: grab;
+}

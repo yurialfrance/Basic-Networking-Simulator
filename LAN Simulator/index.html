@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAN Cable Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>LAN Cable Connection Simulator</h1>
+
+    <div class="tabs">
+        <button class="tab" data-mode="straight" id="straightTab">Straight-Through</button>
+        <button class="tab" data-mode="crossover" id="crossoverTab">Crossover</button>
+    </div>
+
+    <div class="container">
+        <div class="connector" id="connector1">
+            <h2>RJ45 Connector 1</h2>
+            <div class="pins"></div>
+        </div>
+        <div class="connector" id="connector2">
+            <h2>RJ45 Connector 2</h2>
+            <div class="pins"></div>
+        </div>
+    </div>
+
+    <div class="palette">
+        <h2>Drag and Drop Colors</h2>
+        <div class="color" data-color="orange" draggable="true" style="background-color: orange;"></div>
+        <div class="color" data-color="orange-white" draggable="true" style="background-color: #ffe4b5;"></div>
+        <div class="color" data-color="green" draggable="true" style="background-color: green;"></div>
+        <div class="color" data-color="green-white" draggable="true" style="background-color: #ccffcc;"></div>
+        <div class="color" data-color="blue" draggable="true" style="background-color: blue;"></div>
+        <div class="color" data-color="blue-white" draggable="true" style="background-color: #add8e6;"></div>
+        <div class="color" data-color="brown" draggable="true" style="background-color: brown;"></div>
+        <div class="color" data-color="brown-white" draggable="true" style="background-color: #d2b48c;"></div>
+    </div>
+
+    <button id="testConnection">Test Connection</button>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>

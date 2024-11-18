@@ -1,0 +1,65 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #00ff00;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, p {
+    color: #00ff00;
+}
+
+#cmd-container {
+    background-color: #000;
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.cmd-header {
+    background-color: #121212;
+    padding: 5px 10px;
+    color: #00ff00;
+    border-bottom: 1px solid #00ff00;
+    font-size: 16px;
+}
+
+#cmd-output {
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #000;
+    color: #00ff00;
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: pre-line;
+}
+
+.cmd-input-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-top: 1px solid #00ff00;
+    background-color: #121212;
+}
+
+.cmd-input-container span {
+    color: #00ff00;
+    margin-right: 5px;
+}
+
+#cmd-input {
+    flex-grow: 1;
+    background-color: #000;
+    border: none;
+    color: #00ff00;
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+}
